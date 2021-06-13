@@ -44,7 +44,7 @@ def index():
 json_file = open('model.json', 'r')
 loaded_model_json = json_file.read()
 model = model_from_json(loaded_model_json)
-model.load_weights('model.h5py')
+#model.load_weights('model.h5py')
 
 def preprocesamiento_img(img):
     #cargar_img = load_img(img)
